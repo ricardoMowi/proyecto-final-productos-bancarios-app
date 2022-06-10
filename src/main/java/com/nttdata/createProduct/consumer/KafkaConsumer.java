@@ -7,14 +7,10 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.nttdata.createProduct.Util.Mapper;
 import com.nttdata.createProduct.entity.Product;
 import com.nttdata.createProduct.entity.Transaction;
-import com.nttdata.createProduct.repository.ProductRepository;
 import com.nttdata.createProduct.repository.ProductRepositoryKafka;
 import com.nttdata.createProduct.repository.TransactionRepositoryKafka;
-import com.nttdata.createProduct.service.ProductService;
 
 import lombok.extern.slf4j.Slf4j;
 

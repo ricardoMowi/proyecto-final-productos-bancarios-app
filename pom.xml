@@ -17,6 +17,8 @@
 		<java.version>11</java.version>
 		<spring-cloud.version>2021.0.3-SNAPSHOT</spring-cloud.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<sonar.exclusions>src/test/java/com/nttdata/createProduct/**/* </sonar.exclusions>
+
 	</properties>
 	<dependencies>
 		<dependency>
